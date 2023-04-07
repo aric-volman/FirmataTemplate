@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.option16.AppTest" time="0.04" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="c:\Users\aricv\Desktop\FirmataTemplate\main\target\test-classes;c:\Users\aricv\Desktop\FirmataTemplate\main\target\classes;C:\Users\aricv\.m2\repository\org\slf4j\slf4j-jcl\1.7.36\slf4j-jcl-1.7.36.jar;C:\Users\aricv\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\aricv\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Users\aricv\.m2\repository\com\github\kurbatov\firmata4j\2.3.8\firmata4j-2.3.8.jar;C:\Users\aricv\.m2\repository\org\scream3r\jssc\2.8.0\jssc-2.8.0.jar;C:\Users\aricv\.m2\repository\io\github\java-native\jssc\2.9.4\jssc-2.9.4.jar;C:\Users\aricv\.m2\repository\org\scijava\native-lib-loader\2.3.6\native-lib-loader-2.3.6.jar;C:\Users\aricv\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\aricv\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-17.0.5.8-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Users\aricv\AppData\Local\Temp\surefire16028272589355086267\surefirebooter7464388773662916988.jar C:\Users\aricv\AppData\Local\Temp\surefire16028272589355086267 2023-04-06T18-25-40_953-jvmRun1 surefire13281653262512928369tmp surefire_015216767814748675713tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="c:\Users\aricv\Desktop\FirmataTemplate\main\target\test-classes;c:\Users\aricv\Desktop\FirmataTemplate\main\target\classes;C:\Users\aricv\.m2\repository\org\slf4j\slf4j-jcl\1.7.36\slf4j-jcl-1.7.36.jar;C:\Users\aricv\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\aricv\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Users\aricv\.m2\repository\com\github\kurbatov\firmata4j\2.3.8\firmata4j-2.3.8.jar;C:\Users\aricv\.m2\repository\org\scream3r\jssc\2.8.0\jssc-2.8.0.jar;C:\Users\aricv\.m2\repository\io\github\java-native\jssc\2.9.4\jssc-2.9.4.jar;C:\Users\aricv\.m2\repository\org\scijava\native-lib-loader\2.3.6\native-lib-loader-2.3.6.jar;C:\Users\aricv\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\aricv\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\aricv"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.home" value="C:\Program Files\Eclipse Adoptium\jdk-17.0.5.8-hotspot"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="c:\Users\aricv\Desktop\FirmataTemplate\main"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\aricv\AppData\Local\Temp\surefire16028272589355086267\surefirebooter7464388773662916988.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.5+8"/>
+    <property name="user.name" value="Aric"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.5+8"/>
+    <property name="localRepository" value="C:\Users\aricv\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\aricv\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.5"/>
+    <property name="user.dir" value="c:\Users\aricv\Desktop\FirmataTemplate\main"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-17.0.5.8-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\National Instruments\Shared\OpenVINO\;C:\Program Files\Eclipse Adoptium\jdk-17.0.5.8-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\Go\bin;C:\Program Files\CMake\bin;C:\opencv\build\install\x64\mingw\bin;C:\opencv\build\bin;C:\Users\aricv\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\aricv\AppData\Local\Programs\Python\Python37\;C:\Users\aricv\AppData\Local\Microsoft\WindowsApps;C:\Users\aricv\AppData\Local\GitHubDesktop\bin;C:\Qt\Tools\mingw1120_64\bin\;C:\Users\aricv\AppData\Local\Programs\Microsoft VS Code\bin;C:\Windows\System32\;C:\Users\aricv\go\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.5+8"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="shouldAnswerWithTrue" classname="com.option16.AppTest" time="0"/>
+</testsuite>
