@@ -5,7 +5,7 @@
 In previous years, students have had a disconnect between Java knowledge and Arduino skills. The usage of Firmata and Java aims to bridge this gap between Java and Arduino, by offering a means of remote control via a connected computer. Although somewhat limiting, students should also feel challenged with a lack of C++ libraries, with an aim of teaching them about OOP Java classes and methods.
 
 ### Blink Demo GIF
-![Alt Text](https://j.gifs.com/BrYp52.gif)
+![Alt Text](https://j.gifs.com/XQ9wNo.gif)
 
 
 ## How to use
