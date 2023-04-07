@@ -21,6 +21,19 @@
   <dependencies>
 
     <dependency>
+      <groupId>io.github.java-native</groupId>
+      <artifactId>jssc</artifactId>
+      <version>2.9.4</version>
+      <exclusions>
+        <exclusion>  <!-- Declare the exclusion here -->
+          <groupId>org.scream3r</groupId>
+          <artifactId>jssc</artifactId>
+        </exclusion>
+      </exclusions> 
+
+    </dependency>
+
+    <dependency>
       <groupId>org.slf4j</groupId>
       <artifactId>slf4j-jcl</artifactId>
       <version>1.7.36</version>
@@ -33,13 +46,6 @@
       <version>2.3.8</version>
     </dependency>
 
-
-    <dependency>
-      <groupId>io.github.java-native</groupId>
-      <artifactId>jssc</artifactId>
-      <version>2.9.4</version>
-    </dependency>
-
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
@@ -47,6 +53,16 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+
+  <dependencyManagement>
+  <dependencies>
+    <dependency>
+        <groupId>io.github.java-native</groupId>
+        <artifactId>jssc</artifactId>
+        <version>2.9.4</version>
+    </dependency>
+   </dependencies>
+</dependencyManagement>
 
   <build>
     <!--<pluginManagement> lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) 
@@ -93,6 +109,17 @@
              <mainClass>com.option16.App</mainClass>
            </transformer>
            </transformers>
+          <artifactSet>
+            <!-- IMPORTANT LINES BELOW
+            DISCLUDES SCREAM3R JSSC 2.8.0, which can segfault JVM!! (Crash it)
+            https://stackoverflow.com/questions/28458058/maven-shade-plugin-exclude-a-dependency-and-all-its-transitive-dependencies-->
+            <includes>
+              <include>*:*</include>
+            </includes>
+            <excludes>
+              <exclude>org.scream3r:jssc</exclude>
+            </excludes>
+          </artifactSet>
          </configuration>
           </execution>
          </executions>
