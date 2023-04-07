@@ -35,6 +35,7 @@ public class App
                 arduino.getPin(blinkPin).setMode(Mode.OUTPUT);
                 // Blnks every half-second
                 arduino.getPin(blinkPin).setValue(1);
+                System.out.println("BLINK!! :)");
                 Thread.sleep(500);
                 arduino.getPin(blinkPin).setValue(0);
                 Thread.sleep(500);
