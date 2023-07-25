@@ -1,8 +1,8 @@
 # FirmataTemplate
- Template Maven Project with Firmata on the Arduino, for FRC Team #3341's Offseason Learning
+ Template Maven Project with Firmata on the Arduino
 
 ## Purpose
-In previous years, students have had a disconnect between Java knowledge and Arduino skills. The usage of Firmata and Java aims to bridge this gap between Java and Arduino, by offering a means of remote control via a connected computer. Although somewhat limiting, students should also feel challenged with a lack of C++ libraries, with an aim of teaching them about OOP Java classes and methods.
+Exploring different ways of programming the Arduino would benefit students learning Java for the first time. Standard Firmata offers a Java way of controlling an Arduino.
 
 ### Blink Demo GIF
 ![Alt Text](https://j.gifs.com/XQ9wNo.gif)
